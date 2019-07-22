@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.orderItem{
+	margin: 10px;
+}
+.orderItem__pic{
+	float: left;
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+}
+.orderItem__content{
+	margin-left: 150px;
+	margin-right: 20px;
+	height: 100px;
+	/*background-color: orange;*/
+}
+.orderItem__product{
+	font-size: 20px;
+	font-weight: bold;
+}
+.orderItem__shop{
+	margin-top: 10px;
+	color: grey;
+}
+.orderItem__detail{
+	margin-top: 10px;
+	/*background-color: orange;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.orderItem__price{
+	color: grey;
+}
+.orderItem__btn{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	border: 0;
+	border-radius: 6px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.orderItem__btn--red{
+	background-color: red;
+}
+.orderItem__btn--grey{
+	background-color: grey;
+}
+.OrderItem__commentContainer{
+	padding: 10px 10px;
+	/*background-color: yellow; */
+	font-size: 30px;
+}
+.OrderItem__comment{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+}
+.orderItem__submit,.orderItem__cancel{
+	margin-right: 15px;
+	padding: 4px 15px;
+	color: white;
+	font-size: 16px;
+	border-radius: 6px;
+	border: 0;
+	cursor: pointer;
+}
+.orderItem__submit{
+	background-color: rgb(12,106,255);
+}
+.orderItem__star{
+	cursor: pointer;
+}
+.orderItem__star--light{
+	color: red;
+}
