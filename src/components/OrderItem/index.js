@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component,Fragment } from "react";
 import "./style.css";
 
 
@@ -15,7 +15,8 @@ class OrderItem extends Component{
 	}
 	render(){
 		const { shop, product, price, picture, ifCommented } = this.props.data;
-		return <div className="orderItem">
+		return <Fragment>
+		<div className="orderItem">
 		<div className="orderItem__picContainer">
 			<img className="orderItem__pic" src={picture} alt=""/>
 		</div>{/*图片容器*/}
@@ -32,8 +33,10 @@ class OrderItem extends Component{
 				</div>
 			</div>{/*产品细节容器*/}
 		</div>{/*产品信息容器*/}
-		{this.state.editing ? this.renderEditArea() : null}
+		
 		</div>
+		{this.state.editing ? this.renderEditArea() : null}
+		</Fragment>
 	}
 	renderEditArea(){
 		return (
