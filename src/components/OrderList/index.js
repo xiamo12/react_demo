@@ -30,7 +30,7 @@ class OrderList extends Component{
 				}
 			</div>);
 	}
-	handleSubmit = (id,comment,stars)=>{
+	handleSubmit = (id, comment, stars)=>{
 		//这一段代码应该在把评论信息成功保存到服务器之后再执行：
 		//fetch("/saveComment").then( ()=>{} );相当于在"saveComment"成功之后，在回调函数中去修改
 
