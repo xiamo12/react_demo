@@ -29,19 +29,22 @@ class OrderItem extends Component{
 				<div>
 					{
 						ifCommented?(<button className="orderItem__btn orderItem__btn--grey">已评价</button>):
-						(<button className="orderItem__btn orderItem__btn--red" onClick={this.handerOrderEditArea}>评价</button>)}
+						(<button className="orderItem__btn orderItem__btn--red" onClick={this.handerOrderEditArea}>评&nbsp;价</button>)}
 				</div>
 			</div>{/*产品细节容器*/}
 		</div>{/*产品信息容器*/}
 		
 		</div>
 		{this.state.editing ? this.renderEditArea() : null}
+		<div className="bottom_line">
+			<hr />
+		</div>
 		</Fragment>
 	}
 	renderEditArea(){
 		return (
 			<div className="OrderItem__commentContainer">
-				<textarea className="OrderItem__comment" onChange={this.handerCommentChange} value={this.state.comment}/>
+				<textarea className="OrderItem__comment" onChange={this.handerCommentChange} value={this.state.comment} placeholder="好喝，推荐给大家！"/>
 				{this.renderStars()}
 				<p>{ this.state.description }</p>
 				<button className="orderItem__submit" onClick={this.handleSubmitCommet}>提交</button>

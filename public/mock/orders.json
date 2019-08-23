@@ -1,29 +1,29 @@
 [{
 	"id": 1,
 	"product":"柠檬🍋(冷饮) 1扎",
-	"shop": "院落创意菜",
+	"shop": "严选鲜柠檬，切片后加入清新绿茶中，搅拌后更美味！",
 	"picture": "images/lemend_300.jpg",
 	"price":"$19.9",
 	"ifCommented": false
 },{
 	"id":2,
 	"product": "水果🍉(冷饮) 1扎",
-	"shop": "我家果园",
+	"shop": "定制浅焙红茶，佐以蜂蜜，甜蜜四溢！含蜜瓜/百香果/青柠等等多种时令水果，水果组合根据季节进行调整哦～",
 	"picture": "images/综合水果.jpg",
 	"price":"$19.9",
 	"ifCommented": false
 },{
 	"id":3,
 	"product": "菠萝🍍(冷饮) 1扎",
-	"shop": "院落创意菜",
+	"shop": "鲜切超甜菠萝，让轻盈的菠萝香在你的味蕾跳跃！",
 	"picture": "images/菠萝.jpg",
 	"price":"$19.9",
 	"ifCommented": false
 },
 {
 	"id":4,
-	"product": "西柚🍊(冷饮) 1扎",
-	"shop": "院落创意菜",
+	"product": "石榴🍊(冷饮) 1扎",
+	"shop": "选用吸收灿烂阳光的超精品石榴，鲜榨提取最清新美味的石榴汁，超好喝！",
 	"picture": "images/西柚.jpg",
 	"price":"$19.9",
 	"ifCommented": false

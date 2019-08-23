@@ -1,15 +1,22 @@
+
 .header{
-	height: 35px;
-	line-height: 35px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 1.55rem;
+	height: 40px;
+	line-height: 40px;
 	font-weight: bold;
 	font-size: 26px;
 	text-align: center;
-	padding: 15px 10px;
-	background-color: orange;
+	padding: 10px 10px;
+	background-color: #69f;
 	color: white;
 }
-@media screen and (max-width:600px){
+@media screen and (min-width:650px){
 	.header{
-		background-color: #69f;
+		width: 680px;
+		margin: 0 auto;
 	}
 }
