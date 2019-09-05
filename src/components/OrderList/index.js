@@ -10,7 +10,7 @@ class OrderList extends Component{
 		};
 	}
 	componentDidMount(){//组件挂载完毕之后执行该函数，把传进来的数据赋予给this.state.data
-		fetch("./mock/orders.json").then(res => {
+		fetch("/mock/orders.json").then(res => {
 			if(res.ok) {
 				res.json().then(data => {
 					this.setState({

@@ -14,7 +14,7 @@ html{
 	
 }
 .orderItem:first-child{
-	margin-top: 50px;
+	margin-top: 4rem;
 }
 
 .bottom_line{
@@ -23,7 +23,7 @@ html{
 }
 
 .orderItem__picContainer{
-	margin-bottom: 1rem; 
+	margin-bottom: 0.5rem; 
 	width: 30vw;
 	height: 30vw;
 }
@@ -34,18 +34,18 @@ html{
 .orderItem__content{
 	flex-grow: 1;
 	height: 30vw;
-	padding: 0 2rem;
+	padding: 0 1rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
 .orderItem__product{
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 .orderItem__shop{
-	width: 200px;
-	font-size: 1.4rem;
+	width: 14rem;
+	font-size: 1.2rem;
 	color: grey;
 }
 .orderItem__detail{
@@ -59,8 +59,8 @@ html{
 	color: grey;
 }
 .orderItem__btn{
-	width: 8rem;
-	height: 3rem;
+	width: 6rem;
+	height: 2.3rem;
 	text-align: center;
 	color: #fff;
 	border: 0;
@@ -75,7 +75,7 @@ html{
 	background-color: grey;
 }
 .OrderItem__commentContainer{
-	margin-right: 1rem;
+	margin-right: 0.8rem;
 	font-size: 30px;
 }
 .OrderItem__comment{
